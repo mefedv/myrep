@@ -1,0 +1,84 @@
+/* Add your styles here */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e7e7e7; 
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(182, 180, 180);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.photo {
+  width: 150px;
+  height: 150px; 
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.personal-info h1 {
+  margin-top: 0;
+}
+
+.personal-info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.personal-info li {
+  margin-bottom: 5px;
+}
+
+.personal-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.main {
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px; 
+  grid-template-rows: repeat(3, auto); /Три ряда */
+}
+
+.about-me,
+.skills,
+.education,
+.programming-languages,
+.hobbies {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #b4ecfa; 
+}
+
+h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: disc;
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
